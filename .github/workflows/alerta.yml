@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Enviar notificación a ntfy
         run: |
-          curl -H "Title: 🚀 Nuevo Push a main" \
+          curl -H "Title: Nuevo Push a main" \
                -H "Priority: high" \
                -d "Se hizo push a main y se ejecutó Hola Mundo con éxito 🎉" \
                https://ntfy.sh/devops-itla
